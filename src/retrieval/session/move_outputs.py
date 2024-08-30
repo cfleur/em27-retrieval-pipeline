@@ -3,7 +3,7 @@ import json
 import os
 import shutil
 import tum_esm_utils
-from src import types, utils, retrieval
+from ... import types, utils, retrieval
 
 
 def run(

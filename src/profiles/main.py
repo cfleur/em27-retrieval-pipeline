@@ -4,7 +4,7 @@ import tum_esm_utils
 import ftplib
 
 sys.path.append(tum_esm_utils.files.rel_to_abs_path("../.."))
-from src import types, profiles
+from .. import types, profiles
 
 
 def run() -> None:

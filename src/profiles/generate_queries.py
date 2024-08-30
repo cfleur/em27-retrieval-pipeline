@@ -8,7 +8,7 @@ import pydantic
 import datetime
 
 import tum_esm_utils
-from src import types, utils
+from .. import types, utils
 from .cache import DownloadQueryCache
 
 

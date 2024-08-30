@@ -1,6 +1,6 @@
 import glob
 import os
-from src import types, retrieval
+from ... import types, retrieval
 
 
 def move_bin_files(session: types.RetrievalSession) -> None:

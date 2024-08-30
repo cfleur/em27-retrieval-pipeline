@@ -1,7 +1,7 @@
 import datetime
 import em27_metadata
 import tum_esm_utils
-from src import types, utils
+from .. import types, utils
 
 
 def get_header(

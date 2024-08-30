@@ -2,7 +2,7 @@ from __future__ import annotations
 import datetime
 import pydantic
 import tum_esm_utils
-from src import types
+from .. import types
 
 _CACHE_FILE = tum_esm_utils.files.rel_to_abs_path(
     "../../data/profiles_query_cache.json"

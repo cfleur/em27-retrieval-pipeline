@@ -2,7 +2,7 @@ from typing import Callable
 import datetime
 import os
 import tum_esm_utils
-from src import types
+from ... import types
 
 
 def execute_preprocess(

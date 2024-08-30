@@ -5,7 +5,7 @@ import os
 import re
 import rich.progress
 import tum_esm_utils
-from src import types, utils, profiles
+from .. import types, utils, profiles
 
 
 def list_requested_data(

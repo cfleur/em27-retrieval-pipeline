@@ -6,7 +6,7 @@ import polars as pl
 import tum_esm_utils
 import rich.console
 import rich.progress
-from src import types
+from .. import types
 from .text import get_coordinates_slug
 from .functions import sdc_covers_the_full_day
 

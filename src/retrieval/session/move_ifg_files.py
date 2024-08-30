@@ -3,7 +3,7 @@ import os
 import re
 import subprocess
 import tum_esm_utils
-from src import types, retrieval
+from ... import types, retrieval
 
 
 def run(

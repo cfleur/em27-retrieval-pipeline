@@ -16,7 +16,7 @@ with open(pyproj_file, "r") as f:
 sys.path.append(_PROJECT_DIR)
 
 import create_input_files, execute_proffast, move_data
-from src import types
+from ... import types
 
 _CONTAINER_DIR = tum_esm_utils.files.get_parent_dir_path(
     __file__, current_depth=2

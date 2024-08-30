@@ -6,8 +6,8 @@ import em27_metadata
 import tum_esm_utils
 from ..fixtures import download_sample_data, provide_config_template, remove_temporary_retrieval_data
 
-from src import types, retrieval
-from src.retrieval.dispatching.retrieval_queue import generate_retrieval_queue
+from ... import types, retrieval
+from ....retrieval.dispatching.retrieval_queue import generate_retrieval_queue
 
 dir = os.path.dirname
 PROJECT_DIR = tum_esm_utils.files.get_parent_dir_path(__file__, current_depth=3)

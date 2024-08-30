@@ -3,7 +3,7 @@ import io
 import ftplib
 import datetime
 import rich.progress
-from src import types, profiles
+from .. import types, profiles
 
 
 def upload_requests(

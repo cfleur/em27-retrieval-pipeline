@@ -3,7 +3,7 @@ import tarfile
 import io
 import ftplib
 import rich.progress
-from src import types, utils
+from .. import types, utils
 
 
 def download_data(

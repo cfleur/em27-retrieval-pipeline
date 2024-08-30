@@ -3,7 +3,7 @@ import numpy as np
 import scipy.signal
 import polars as pl
 import em27_metadata
-from src import types, utils
+from .. import types, utils
 
 
 def get_empty_sensor_dataframe(

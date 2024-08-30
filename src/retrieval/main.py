@@ -9,7 +9,7 @@ import multiprocessing.context
 import tum_esm_utils
 
 sys.path.append(tum_esm_utils.files.rel_to_abs_path("../.."))
-from src import types, utils, retrieval
+from .. import types, utils, retrieval
 
 
 def run() -> None:
